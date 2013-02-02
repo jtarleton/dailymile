@@ -1,8 +1,8 @@
 <?php
  
-require_once('/var/project/app1/models/PDOFactory.class.php');
+require_once('PDOFactory.class.php');
  
-$pdo = PDOFactory::PDOCreate('mysql://crystalbitweb:foobar123@localhost/tarlejh_venus');
+$pdo = PDOFactory::PDOCreate('mysql://u:p@localhost/db');
  
 $tablename = 'Dmruns';
  
